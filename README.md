@@ -1,24 +1,21 @@
-# README
+# Micro-Reddit
+This application is 
+[*Micro-Reddit.*](http://www.railstutorial.org/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
 
-Things you may want to cover:
+```
+$ bundle install
+```
 
-* Ruby version
+Next, migrate the database:
 
-* System dependencies
+```
+$ rails db:migrate
+```
 
-* Configuration
+If the test suite passes, you'll be ready to run the app in a local server:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
